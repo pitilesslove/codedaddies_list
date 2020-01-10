@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 95%;
+    }
+}
+
+.card {
+    height: 150px;
+    overflow: hidden;
+}
+
+.card-image {
+    margin-top: 3px;
+    margin-right: 3px;
+    height: 144px;
+    overflow: hidden;
+}
