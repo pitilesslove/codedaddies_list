@@ -28,7 +28,7 @@ def home(request):
            # models.PopularThread.objects.create(
            #     rank=int(rank[2:]), made_from=made_from, title=thread_title, thumbnail_img_url=original_link_address, original_path=original_link_address)
             popular_thread_list.append(
-                (rank, thread_title, thumbnail_image_url, made_from))
+                (rank, thread_title, thumbnail_image_url, made_from, original_link_address))
         stuff_for_frontend = {
             # 'contents': models.PopularThread.objects.all(),
             'contents': popular_thread_list,

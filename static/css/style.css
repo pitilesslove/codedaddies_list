@@ -18,8 +18,9 @@
 }
 
 .card {
-    height: 150px;
+    height: 151px;
     overflow: hidden;
+    color:#0f4c81;
 }
 
 .card-image {
